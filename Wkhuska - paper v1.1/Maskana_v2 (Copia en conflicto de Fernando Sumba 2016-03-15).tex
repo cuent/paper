@@ -1,0 +1,338 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Formato de Edición de Artículos a ser publicados 
+%% en la Revista Maskana de la Universidad de Cuenca
+%% Dirección de Investigación - DIUC
+% 
+%
+%	Versión 1.0, Octubre de 2014
+% Ayuda sobre el uso de esta plantilla diríjase a kenneth.palacio@ucuenca.edu.ec
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Inicio del documento.
+
+
+% Por favor no modifique el tpo de letra ni utilice otra clase diferente a la indicaca.
+\documentclass[11pt]{article}
+
+% Coloque aquí otros paquetes que pueda necesitar siempre que no entren en conflicto
+% con los siguientes:
+\usepackage{Maskana-template}
+\usepackage{graphicx,url}
+\usepackage[brazil]{babel}   
+\usepackage[utf8]{inputenc}  
+\usepackage{multicol}
+% UTF-8 encoding is recommended by ShareLaTex     
+\sloppy
+
+
+% Modifique el título del artículo: utilice \\ para dividir en dos líneas.
+\title{Promote research in Ecuador using Linked Data and Data mining}
+
+% Edite los nombres de los autores: puede haber varios autores simplemente agréguelos.
+% Un autor puede tener varias ailiaciones, sepárelas por coma; tal como se muestra para
+% el tercer autor:
+\author{Nombre del Primer Autor\inst{1}, Nombre del Segundo Autor\inst{2}, Nombre del Tercer Autor\inst{1,3} }
+
+% Edite a continuación las afiliaciones de los autores:
+% Indicando su departamento/unidad/grupo de investigación, universidad/centro/institución
+% dirección, ciudad, país y código postal.
+% Si varios autores tienen la misma afiliacion, no repita la información. 
+% Para ello utilice los índices.
+\address{Afiliaci\'on del primer autor, nombre de la universidad,\\
+  Dirección de la Universidad, ciudad, pais, código postal
+\nextinstitute
+  Afiliación del segundo autor, nombre de la universidad,\\
+  Dirección de la Universidad, ciudad, pais, código postal
+\nextinstitute
+  Afiliación del tercer autor, nombre de la universidad,\\
+  Dirección de la Universidad, ciudad, pais, código postal
+  \email{\{primero,segundo\}@universidad.edu, tercero@universidad2.edu}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Inicio del documento escrito
+
+\begin{document} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% En caso que su artículo esté escrito en inglés considere:
+
+%% Note: Use the correct words according to the language of
+%% your paper, if you use English:
+%Please change ``Referencias'' to ``References''
+\renewcommand{\refname}{References}
+%Please change ``Tabla'' by ``Table''
+\renewcommand{\tablename}{Table}
+%Please change ``Figura'' by ``Figure''
+\renewcommand{\figurename}{Figure}
+%Please change ``Agradecimientos'' by ``Acknowledgements''
+\acknowName{Acknowledgements}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\maketitle
+
+%Escriba el resumen de su artículo en inglés dentro del siguiente entorno:
+\begin{abstract}
+(i) mencionar los principales objetivos y el alcance de la investigacion (lo que se hizo, por que se lo hizo y para quien se escribio el articulo?); (ii) describir los metodos empleados en la investigacion; (iii) resumir los resultados obtenidos; y (iv) mencionar las principales conclusiones derivadas de la investigacion. Los resumenes se redactan, por lo general, en tiempo pasado, porque se refiere al trabajo ya efectuado.
+\end{abstract}
+
+%Escriba en inglés las palabras clave de su artículo dentro del siguiente entorno:     
+\begin{keywords}
+Ecuador, Linked Data, Data mining 
+\end{keywords}
+
+%%% Escriba las diferentes secciones de su artículo
+
+\section{Introduction}
+\label{sec:Intro}
+
+Research in Iberoamerica has increased in recent years. According to the publication of the State of Science 2015 the number of items registered in the Science Citation Index (SCI)  grew by 123 \%. Increasing its participation in international databases to increase its local scientific production. One of the most prominent countries is Brazil that increased its number of publications by 2.5. However, it has several limitations, as the amount of resources invested in research in contrast to the world average. It should be noted that Latin America is the second fastest growing world after Asia \cite{Albornoz}. It has a wide range of areas of knowledge, in addition, each country has different strategic ways to address the problems of a region. Which provides a set of solutions that can be an advantage compared to first world countries in the field of research, as these solutions should be able to cope with this heterogeneity in Latin America. 
+
+One approach of the Institutions of Higher Education (IHE) of Latin America is to contribute to the sustainable development of society through the cooperation of students and teachers, driven or promoted  by research. Currently, certain information about researchers and their bibliographic resources are scattered among various digital repositories, text files or bibliographic databases. When you need to propose projects with several researchers in a specific area belonging to different IHE, raises questions such as: Who it works in similar lines of research? or how can you create a network of researchers in a common area when we do not know if they exist? In addition, defining the profile of a person in analysis, get their articles, know which one are the magazines that were accepted, among others, it is obligatory to access to multiple data sources. Given that, it is known that this process is manual, syntactic and different for each source of bibliographic resource available on the Web.
+
+Expand the scope of this knowledge base will allow the entire Ecuador to have a centralized digital repository which has information of Ecuadorian researchers based in bibliographic resources. This project aims to encourage interagency collaboration and obtain as a result of this work a validated semantic repository, locate researchers working in similar research areas and provide updated information accessible and reusable. Enhancing the generation of research networks with academic peers in the region and provide greater opportunities for cooperation and collaboration to the participating institutions.
+
+This document presents a platform developed to detect similar areas of knowledge between  researchers and build interagency working groups. Using semantic integration of bibliographic databases available on the Internet like: Google Scholar, Microsoft Academics, Digital Bibliography \& Library Project (DBLP), Scopus and Knowledge Discovery in Databases (KDD). The rest of this paper is organized in the following way: section \ref{label:relatedwork} presents some related word. The architecture proposed in shown in the section \ref{label:arch}. The application of the achitecture is shown in the section \ref{label:consolidatedate} and section \ref{label:detectsimilarareas} presents how we apply techniques of data mining  to find similar areas and build research networks. Results are presented in section \ref{label:results} and final conclusions and future work are in section \ref{label:conlusionsfurtherwork}.
+
+\section{Related Work}
+\label{label:relatedwork}
+
+In geoscience are working to build a smarter academic search engine that would help geoscientifics find publications and the exact data sets they want. Using linked data and Ontology design pattern-based integration in information geospatial. The project, called GeoLink part of NSF's EarthCube Program, offers  make literature reviews more efficient by leveraging the increasing ability of computers. GeoLink's participating repositories include content from field expeditions, laboratory analyses, journal publications, conference presentations, theses/reports, and funding awards that span scientific studies from marine geology to marine ecosystems and biogeochemistry to paleoclimatology, covering only the geospatial domain \cite{Krisnadhi01} \cite{Krisnadhi02}.
+
+A similar project from the Allen Institute for Artificial Intelligence in Seattle is developing an intelligent search engine for computer science. Called Semantic Scholar that  utilize methods from data mining, natural-language processing, and computer vision to create powerful new search and discovery experiences. this tool identifies connections between documents, even inside scanned ones as well as images and diagrams, based on phrases, keys, authors, topics, other data and citations [Freddy16]. 
+
+It is necessary to have tools that facilitate the work of researchers. in which several projects have worked. Semantic Scholar is a intelligent search engine that  utilize methods from data mining, natural-language processing, and computer vision to create powerful new searches and discover experiences. Semantic Scholar identifies connections between documents, even inside scanned ones as well as images and diagrams, based on phrases, keys, authors, topics, other data and citations \cite{semanticscholar}. Another one is GeoLink that is a smarter academic search engine that would help geoscientifics find publications and the exact data sets they want. Using linked data and Ontology design pattern-based integration in information geospatial. GeoLink's participating repositories include content from field expeditions, laboratory analyses, journal publications, conference presentations, theses/reports, and funding awards. \cite{Krisnadhi01} \cite{Krisnadhi02}.
+
+However, these tools have its limitations (i.e.: treat local publications and authors or a particular area of knowledge domain). 
+
+The stability of the tools that deal with this problem is critical because every day there are new scientists, new areas of study, and hundreds of researchers that make new local projects, international or multidisciplinary.
+
+\section{Generic Architecture}
+\label{label:arch}
+
+In this section we present a generic architecture to use academic literature available on the net and find some kind of relationship between authors and their publications. Our approach relies on three different modules, namely: Data Extraction, Data Enrichment and Pattern Detection. The high-level modules of the architecture are illustrated in Figure \ref{fig:achitecture} and their features will be explained along this section.
+
+ \begin{figure}[ht!]
+	\centering
+		\includegraphics[height=5.2cm]{platformDiagram.png}
+	\caption{General architecture to enrich academic literature.}
+	\label{fig:achitecture}
+\end{figure}
+
+\begin{description}
+\item[Data Sources] 
+\item[Data Extraction]
+\item[Data Enrichment]
+\item[Pattern Detection] 
+\end{description}
+
+The modules above described have been used to . In the following section we provide examples obtained from our system.
+
+
+\section{Consolidate Data}
+\label{label:consolidatedate}
+
+Scientific publications of Ecuadorian authors are available in different bibliographics databases on internet at each source varies the information on scientific activity of an author. For example Scopus sources  save affiliation of authors, tables, graphs of publications, authors study areas, etc. DBLP features does not cover. For this reason is necessary make a unification of these bibliographic resources with different disciplines, structures with features that feed a common data model. For this task has been defined as the first phase the extraction of scientific publications from different external bibliographics sources, after a data integration process and disambiguation of authors and their publications , and as a third phase defined a method to  data update add information to allow a controlled way, facilitating access, discovery and reuse of scientific resources.
+The development of the first stage of the platform faces two challenges. 1) Extracting data from heterogeneous bibliographic sources. 2) Integration of publications with different data formats, vocabularies and conceptualizations using ontologies and vocabularies to describe bibliographic data in a single model.
+
+
+\subsection{Extraction data of bibliographic databases}
+The extraction process of publications is responsible for obtaining information from scientific articles Ecuadorian authors from various external bibliographic databases previously analyzed as Google Scholar, Microsoft Academics, Scopus, etc. Each of these data sources operate in a different way, so the extraction service adapts to each of the data sources. For the extraction of publications should be considered that the data source consisting of an API access, because if data collection is not available through an API the data quality is poor as demonstrated below. The collection of scientific publications is the first phase that will allow us to obtain data which depend on the following phases, because if the data are erroneous alter the expected results.
+
+\subsubsection{Analyse of access on bibliographic resources.}
+Google Scholar, Scopus, DBLP, Microsoft Academics, Semantic Scholar, GeoLink, etc made available tools that facilitate scientific research. They differ in the form and manner that publish these resources, and the respective policies of each resource or bibliographic database. In some cases it has access to the abstract, references, citations or full article in PDF format and in other cases only the metadata has given publication. As for this platform is considered to use different sources in order to account for the heterogeneity of the sources.
+Certain data sources have API access to information, but when a source does not have this access can be a problem. The tools that extract should be adapted to the context in which these resources for example websites, sets of documents in pdf format or any type of bibliographic information which is not available through an interface with certain characteristics such as compatibility are published and reliability. If not considered sources like Google Scholar that does not have an access interface information to be analyzed may be limited. Therefore the extraction service adapts to the source in the event that this does not consist of an API, however data from it will not have the same quality as data that come from a source consisting of an API access.
+
+For the development of the first prototype of the project has been selected four bibliographical databases such as Microsoft Academics, Google Scholar, Scopus, DBLP  to cover different types of databases and present a scenario in which the main problems involved in making the extraction and integration of bibliographic sources. Subsequently, the platform should allow seamlessly add new data sources and this process should not affect the platform operation.
+
+\subsubsection{Analysis of the data models of bibliographic resources data source.}
+
+The different bibliographic databases provide their own resources with a logical structure which makes the data model for each source is different despite dealing with the same type of information. Bibliographic resources are not 
+ruled by a standard or comprehensive model encompassing all properties as authors, appointments, conferences, knowledge areas, etc. in the same way. Some features such as DOI, ISBN, format bibliographic references of resources are ruled by International Standard Bibliographic Description (ISBD), ISO 690, etc. However it is not enough if we need a common data model to facilitate the processing of scientific publications.
+
+In Figure [1] you can see the data model between two bibliographic databases: Microsoft Academics and Springer Open Access API API that represent the diversity of models of data between bibliographic databases. This heterogeneity of models represents the challenge of integrating various sources, taking into account that some sources don't publish your data model. Therefore before adding a new data source to the platform must perform an analysis of its structure with respect to models already being used for the purpose of assigning correspondences between model features the new source and model common data.
+ \begin{figure}[ht!]
+	\centering
+		\includegraphics[height=5.2cm]{modelosMA_Springer.png}
+	\caption{Data Models of Microsoft Academics API and Springer Open Access API.}
+	\label{fig:Escudo2}
+\end{figure}
+
+\subsubsection{Architecture extraction service publications.}
+
+The architecture for service publications extraction is implemented generically adapted to the source. In Figure * you can see the architecture of extraction service , which have exposed the different data sources to be consulted, which some of them have API access to data. The module requests the service publications extraction publications of an author sending as parameters the author names. The service searches all bibliographical sources external publications of the author and if this are not described in any ontology then describes using BIBO. Finally these data recorded in RDF are sent publications module, then be processed to a central repository.
+
+\subsection{Integration of authors an publications}
+
+The integration process is responsible of unify the publications of all bibliographic sources. The extraction service keeps publications in a respective graph for each source, and it has a graph of publications DBLP, Scopus, etc. Integration service unifies all graphs either publications or authors in a central graph called wkhuska. For this unification we find characteristics between publications and authors in the platform. the origin of the publication is also stored and whether a publication is similar to another is as described with  SameAs  property, and equally form  the authors, this descriptions are used to disambiguate publications by the same author. As a result the unified data integration process are obtained and available through Apache available marmot SPARQL.
+ 
+
+In view of the diversity of data models bibliographical sources a common data model which encompasses the main features of each source publications was raised. The model proposed is described using ontology BIBO (bibliographic ontology), which is an ontology is used to describe bibliographic entities as books, magazines, etc. [10]. This ontology is used to describe bibliographic resources and are listed in RDF. The authors are described using ontology FOAF (Friend of a Friend), it is an ontology used to describe people, their activities and their relationships with other people and objects. The common data model is presented in Figure [2], wherein the different attributes and relationships necessary for the representation of library resources in the platform.
+
+ \begin{figure}[ht!]
+	\centering
+		\includegraphics[height=8.2cm]{dataModelCommon.png}
+	\caption{Common data model publications.}
+	\label{fig:Escudo2}
+\end{figure}
+
+The incompatibility between different data models bibliographical databases is handled through a process of mapping, so that a correspondence between the properties of the attributes of publications and bibliographic source model proposed common data set. This process is necessary to specify the time manually correspondences between the properties of publications and model. When adding a new source is must identify the correspondences between data models. However, this process should be done automatically taking into account that this is a defined domain and similar ontologies.
+There are studies which perform making an automatic annotation of web services REST, analysing their input and output  on a bus service \cite{Ortiz}, it would be useful in our case for access to API services and add bibliographic databases in a way easier and faster thus enriching our repository.
+
+It has been necessary to have materialized data authors and publications with the aim of finding correspondences between these locally since the other option is to recover the publications at the time they are needed ie make a request for this to the source in a given moment. The time between making a request to an external source and the mapping takes an average of twenty seconds. So the fact is justified d realize the offerer high availability and speed bibliographic resources to consult the publications of a specific author.
+
+\subsection{Disambiguation of authors and bibliographic resources.}
+
+The platform have publications from different sources by the same author and to perform this task has several entities of the same person possibly with the same publications, so it is necessary to discover that these authors are the same entity. The prototype developed allows you to define a single record of an author in a central graph based on various entities of the same author of different publications providers. The procedure was performed for this purpose is to analyze the publications of authors who are theoretically the same person with the same publications, unifying them based on a priority set based on experiments. For example the most reliable source is the service Scopus, because other sources of data are inconsistencies when search as the next author   \textit{Juan Pablo Carvallo Vega} and \textit{Juan Pablo Carvallo Ochoa} if we make this search possible that certain data sources provide us the same publications although locally in our repository are two different people. With the method implemented this problem however is necessary to feed this method more rigorous techniques with the aim of identifying a more concrete form to the authors and their publications present in the platform is. Arvin Varadharajalu and Wei Liu1 \cite{varadharajalu2011author} have an algorithm to disambiguation using the affiliation, email, Url, Organization, Co-Authors, etc. Making in context disambiguate authors and publications, so it is necessary to have more information about the author validated to feed disambiguation algorithms on the platform.
+
+In Figure [3] you can see the diagram of the method implemented for disambiguation of authors and publications. As the first step is loaded into memory publications specific chart such as the graph DBLP or Microsoft Academics, etc. each publication is processed asking if first is already in the repository, if not all the properties of the publication as well as the other publications of the author of the publication being processed at that time we will call P1 is removed. It is also extracted from the central graph in the event of any publication the author of P1 and a comparison between the publications of the graph of the supplier and the publications of the Central graph, if matches between these publications is established is made that the author is already present in the central graph and publication P1 is added to this author. In the event that the author's publications P1 are not in the central graph states that it is the first record of the author and their publications. This process assigns a single central author different resources by the same author repeated in each graph provider publications.
+
+
+
+\begin{figure}[ht!]
+	\centering
+		\includegraphics[height=5.2cm]{desambiguationProcess.png}
+	\caption{Disambiguation Process.}
+	\label{fig:Escudo2}
+\end{figure}
+
+\subsection{Analysis and implementation of data update methods.}
+
+Bibliographic  resources must be updated at a frequency set according to the number of authors, literature sources, repositories Ecuatorianos authors, etc. The frequency with which a new library resources published author is unknown which is considered an update of information by set of authors. For example it is possible to perform an update of scientific publications of all authors of the University of Cuenca getting their new publications. It is defined methods therefore incremental update not an update of the repository which would take a long time defined by the number of authors being necessary.
+The process begins with a selection of a set of authors to update what the authors repository available to each higher education institution such as University of Cuenca (UCUENCA). Army Polytechnic School (ESPE), etc. This process is done with expert intervention activating the selected source manual. Once the set of selected authors to update, the data required for the update is loaded in memory respective scientific publications in a bibliographic database as defined by the expert may be Scopus, DBLP, etc. If changes are published by the authors information is added to the platform.
+  
+The number of records of authors on the platform are around ninety-seven thousand so based on experiments when extraction publications all registered authors processing time is too long that can be in is done order of weeks and if a fault occurs in this process should start from scratch. The method implemented timely update has control over the source of publications to use, because such sources as Scopus for example allows a certain value share requests and if this value is exceeded the API blocks access to its resources.
+
+ 
+Because they do not have relevant information to more than names and surnames of the authors, it is a difficult task to differentiate between two authors with similar names, so that the process presented presents difficulties arise names like \textit{Mauricio Espinoza Mejia} and \textit{Mauricio Espinoza Ana} is a need for more information from the authors to find a relationship between authors and their publications. As a next step in this process is extracting the keyword from registered authors in the source, so that a more concrete relationship between these keywords and the publications of Ecuadorian authors find jobs.
+The data still contain erroneous information is not yet due to insufficient data with which to disambiguate authors according to their field of study. For example you can consider using keywords of the work done by the authors in order to identify whether the publications obtained by the service relate to the keywords of local works of the author.
+
+\section{Detect Similar Areas}
+\label{label:detectsimilarareas}
+
+In this section, we outline the web service built for data processing . The service has been called KODAR that means ``Discovery Of Knowledge Research Areas'' with the words a little bit jumbled. It uses Apache Mahout to execute algorithms of machine learning. We choose mahout for the ability to deal with massive datasets, it is a scalable Java library and we could profit of the distributed computation, because it is built upon Apache Hadoop. KODAR has three main stages that are: Discover similar areas, detect researchers networks and find a general topic area. The whole implementation is open sourced and available on our GitHub repository\footnote{\url{https://github.com/cuent/kodar.git}}. 
+
+
+\subsection{Discover similar areas}
+\label{label:discoversimareas}
+
+Broadly, keywords of academic literature talk about a certain topic area or methodology. Detecting similar areas based in the keywords . It could help us to detect researchers with interests in common and open up an opportunity to generate new research projects. Boosting interagency collaborative work and form cooperative research groups.
+
+Firstly, we disjoin our data, because we just need to process the keywords to detect similar areas. Other fields like author or title of the publication are stored in a separate file. Both files are converted in a specific Hadoop file format that is SequenceFile\footnote{Mahout also use Sequence files to manage input and outputs of MapReduce and store temporary files.}. This file stores key/value pairs, where the key is a unique identifier and a bunch of keywords that belongs to a paper are stored as a value. Same happens in the another file with the difference in the value pair (remaining fields are stored). 
+
+It is necessary to do some procedures before to clustering the data into Mahout. Data has been preprocessed to convert text in numerical values, but not all the keywords have the same relevance. The weighting technique used to magnify the most important words is Term frequency-inverse document frequency (TF-IDF). The weighted values are used to generate the Vector Space Model (VSM) where words are dimensions. The problem with this VSM generated is that words are entirely independent each other and it is not always true. Sometimes words have some kind of dependency like \emph{Semantic} with \emph{Web}. In order to achieve this dependency we use collocations \cite{Manning}. At the time of writing, we are executing our experiment using bi-grams and an Euclidean norm (2-norm), which can change. In future experiments, It will be interesting to generate vectors using Latent Semantic Indexing (LSI) or apply a log-likelihood to take words that mostly have the chance to go together. So in the long run, we have our vectors completed to start clustering.
+
+We start with the vectors generated to execute K-Means algorithm in Mahout. It was executed using a Cosine distance measure as the similarity measure. RandomSeedGenerator\footnote{It is used to generate random centroids} was used to seed the initial centroids. The experiment were set to 100 maximum of interactions and the value of k varies according to the number of data extracted from the different bibliographic databases. Once the algorithm finishes we have our similar areas based in a bunch of keywords.
+
+
+\subsection{Detect researchers networks}
+
+We have discovered similar areas, now it is time to detect what researchers could be interested to work together based in the areas they are working on. We have developed a MapReduce model to accomplish it as you can observe in the figure \ref{fig:mapreducemodel}. First, we sorted the name of clusters accord to the unique identifier generated and merged each cluster with their original keyword (before to preprocess, section \ref{label:discoversimareas}). In our final job, we merge the resulting file of the first stage (Sort \& Join) and the additional file containing the remaining fields (title, author) from KODAR's first stage. Finally, we get a file with all the original fields, plus a field showing the cluster that a row belongs.
+
+\begin{figure}[ht!]
+	\centering
+		\includegraphics[height=2.2cm]{findka.png}
+	\caption{MapReduce model}
+	\label{fig:mapreducemodel}
+\end{figure}
+
+\subsection{Find a general topic area}
+
+Our search engine could increase performance in searches by finding a general topic area based in the words that belongs to a cluster. We can respond to specific queries (i.e.: show all researchers working in a specific area or all subareas belonging to a general topic area).
+
+We use WordNet\footnote{It is a lexical database for the English language that is used for text analysis applications.} \cite{Miller} to find synonyms, hypernyms, hyponyms and the concept of a word for all keywords in a cluster. It helps to find a common meaning in the way that words could occur together and find similar meanings. In other words, with the group of word set up we could find a concept or a topic for each cluster.
+
+We applied Collapsed Variational Bayes (CVB) algorithm \cite{Blei} that is an implementation for LDA in Mahout. We use all the words generated by WordNet plus the title and keywords of each publication to find a broader topic based in multiple subtopics described by the keywords. We use Mahout RowId to convert Term Frequency (TF) vectors into a matrix. The CVB algorithm was executed with the following parameters: 1 for the number of latent topics and 20 maximum interactions. This job is applied to each cluster.
+
+Finally the results of three KODAR's stages are exported in different formats, but one of most import is the Resource Description Framework (RDF) file. Figure \ref{fig:descriptionrdf} shows the concepts and relationships used to export the results. The full arrow symbolize a relationship between classes and the dash arrow symbolize a common relationship.
+
+\begin{figure}[ht!]
+	\centering
+		\includegraphics[height=2.9cm]{anotacion.png}
+	\caption{Concepts and relationships of RDF file exported.}
+	\label{fig:descriptionrdf}
+\end{figure}
+
+\section{Results}
+\label{label:results}
+
+%In the process of extraction scientific publications we use only the names of the author, for searches of publications, which generates erroneous information for example people with the same name but that  do not work on the same subject. The solution for this problem  is proposed as future work to establish a better partnership between publications and authors, so you can discern whether a publication is linked to the research of a particular author, in otherwise discard this data, improving the quality of information platform.
+
+After the integration and extraction we have a centralized semantic repository. Table \ref{table:statistics} show some statistics.
+
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|l|l|l|l|}
+\hline
+Bibliographic database & Publications & Authors &  Publications/authors \\
+\hline \hline
+Microsoft Academics & 3663  & 375 & 9.77 \\ \hline
+DBLP & 21433 & 1698 &  12.62 \\ \hline
+Scopus &  1134 & 136 & 8.33 \\ \hline
+Google Scholar & 367 & 47 & 7.80 \\ \hline
+\end{tabular}
+\caption{Tabla muy sencilla.}
+\label{tabla:sencilla}
+\end{center}
+\end{table}
+
+
+
+We are going to show the interpretation of a taken sample cluster  as result\footnote{All results can be analyzed on the web platform: \url{http://investiguemosjuntos.cedia.org.ec}}. We find that all the words listed below belongs to the general topic area of \emph{physics}. Researchers that are working in the areas listed of physics are \emph{Fern\'andez Tapia, Jaime E, Torres Arteaga, Christian Alejandro} and \emph{Aguilar Romero, Gino}. At last, a research project could be proposed with people that are working in similar areas. 
+
+\begin{multicols}{2}
+    \begin{itemize}
+	\item Inelastic Scattering
+	\item Flow Measurement
+	\item High Energy
+	\item Fourier Coefficient
+	\item Bose Einstein Correlations
+	\item Monte Carlo
+	\item Three Dimensional
+	\item Center of Mass
+	\item Large Hadron Collider
+	\item Charged Particles
+	\item Correlation Function
+	\item Proton Proton
+	\item Particle Physics
+	\item Experience Repor
+	\item Elliptic Flow
+	\item Heavy Ion Collision
+	\item Particle Production
+	\item Particle Emission
+    \end{itemize}
+\end{multicols}
+
+
+\section{Conclusion and Further Work}
+\label{label:conlusionsfurtherwork}
+
+Lo esencial de esta sección es un resumen de las conclusiones importantes y de sus
+implicaciones en el área de investigación sobre la que trata el artículo. Tradicionalmente, las 
+conclusiones ofrecen una descripción (resumida) de los objetivos principales del marco teórico, del 
+rigor metodológico, de los resultados, el uso e impacto de los resultados, la originalidad y el tipo de 
+contribución, y de los desarrollos futuros. Para mayor información sobre el formato de las referencias diríjase al enlace:\\ \url{http://diuc.ucuenca.edu.ec/revista-maskana?download=17:guia-autores-maskana}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Sección de Agradecimientos / Reconocimientos
+%% Opcional - Se puede eliminar por completo en caso
+%% que su artículo no requiera de la misma.
+
+\begin{acknowledgements} 
+  En esta sección se agradece de manera cortés por la ayuda: científica, de redacción y 
+técnica (equipo y otros materiales especiales) recibida de cualquier persona o institución. Además, en 
+esta sección se expresa también un reconocimiento por la ayuda financiera externa (como 
+subvenciones, contratos o becas) recibida tanto para la realización de la investigación como para la 
+preparación del artículo. Debe ser breve.
+\end{acknowledgements}
+
+
+
+\bibliographystyle{MaskanaStyle}
+\bibliography{MaskanaBIB}
+
+\end{document}

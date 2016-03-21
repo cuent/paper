@@ -1,0 +1,100 @@
+@article{sunacomparative,
+  title={A Comparative Evaluation of String Similarity Metrics for Ontology Alignment?},
+  author={Suna, Yufei and Maa, Liangli and Wangb, Shuang}
+}
+*********************************
+[Freddy15]
+@inproceedings{Krisnadhi2015TheGF,
+  title={The GeoLink Framework for Pattern-based Linked Data Integration},
+  author={Adila Alfa Krisnadhi and Yingjie Hu and Krzysztof Janowicz and Pascal Hitzler and Robert A. Arko and Suzanne Carbotte and Cynthia Chandler and Michelle Cheatham and Douglas Fils and Tim Finin and Peng Ji and Matthew B. Jones and Nazifa Karima and Kerstin Lehnert and Audrey Mickle and Tom Narock and Margaret OBrien and Lisa Raymond and Adam Shepherd and Mark Schildhauer and Peter Wiebe},
+  booktitle={SEMWEB},
+  year={2015}
+}
+
+
+****************************
+[Freddy 14]
+@incollection{krisnadhi2015geolink,
+  title={The GeoLink modular oceanography ontology},
+  author={Krisnadhi, Adila and Hu, Yingjie and Janowicz, Krzysztof and Hitzler, Pascal and Arko, Robert and Carbotte, Suzanne and Chandler, Cynthia and Cheatham, Michelle and Fils, Douglas and Finin, Timothy and others},
+  booktitle={The Semantic Web-ISWC 2015},
+  pages={301--309},
+  year={2015},
+  publisher={Springer}
+}
+
+
+
+*****************************
+[Freddy 16]
+@webpage{PaulAllen,
+	Author = {Paul Allen's},
+	Date-Added = {2015-11-01 05:02:50 +0000},
+	Keywords = {search articles},
+	Lastchecked = {2016/01/30},
+	Month = {11},
+	Year = {2015},
+	Title = {Semantic Scholar},
+	Url = {http://allenai.org/semantic-scholar.html},
+	Urldate = {2005/11/01},
+	Year = {2015},
+	Bdsk-Url-1 = {http://allenai.org/semantic-scholar.html}}
+
+
+[Freddy 19]
+@article{eps271285,
+          volume = {5},
+          number = {3},
+           title = {Linked Data - the story so far},
+          author = {Christian Bizer and Tom Heath and Tim Berners-Lee},
+            year = {2009},
+           pages = {1--22},
+         journal = {International Journal on Semantic Web and Information Systems},
+             url = {http://eprints.soton.ac.uk/271285/},
+        abstract = {The term ?Linked Data? refers to a set of best practices for publishing and connecting structured data on the Web. These best practices have been adopted by an increasing number of data providers over the last three years, leading to the creation of a global data space containing billions of assertions{--} the Web of Data. In this article, the authors present the concept and technical principles of Linked Data, and situate these within the broader context of related technological developments. They describe progress to date in publishing Linked Data on the Web, review applications that have been developed to exploit the Web of Data, and map out a research agenda for the Linked Data community as it moves forward.}
+}
+[Freddy 20]
+
+@Inbook{Gangemi2005,
+author="Gangemi, Aldo",
+editor="Gil, Yolanda
+and Motta, Enrico
+and Benjamins, V. Richard
+and Musen, Mark A.",
+chapter="Ontology Design Patterns for Semantic Web Content",
+title="The Semantic Web -- ISWC 2005: 4th International Semantic Web Conference, ISWC 2005, Galway, Ireland, November 6-10, 2005. Proceedings",
+year="2005",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="262--276",
+isbn="978-3-540-32082-1",
+doi="10.1007/11574620_21",
+url="http://dx.doi.org/10.1007/11574620_21"
+}
+
+[Freddy 21]
+@COMMENT { BibTex package created from National Library of Australia Catalogue http://catalogue.nla.gov.au  }
+@Book{ nla.cat-vn5432051,
+author = { International Federation Of Library Associations and Institutions. and International Federation of Library Associations and Institutions. },
+title = { ISBD : International Standard Bibliographic Description / recommended by the ISBD Review Group ; approved by the Standing Committee of the IFLA Cataloguing Section },
+edition = { Consolidated ed. },
+isbn = { 9783110263794 3110263793 },
+publisher = { De Gruyter Saur Berlin ; Boston },
+pages = { xvii, 284 p. ; },
+year = { 2011 },
+type = { Book },
+language = { English },
+subjects = { International Standard Bibliographic Description.; Descriptive cataloging -- Standards. },
+life-dates = { 2011 -  },
+catalogue-url = { http://nla.gov.au/nla.cat-vn5432051 },
+}
+
+
+[Freddy 22]
+@inproceedings{Charikar2002SimilarityET,
+  title={Similarity estimation techniques from rounding algorithms},
+  author={Moses Charikar},
+  booktitle={STOC},
+  year={2002}
+}
+

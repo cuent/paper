@@ -1,0 +1,94 @@
+\begin{thebibliography}{}
+
+\bibitem[Alfraidi 2015]{Alfraidi}
+Alfraidi, H. (2015).
+\newblock Interactive system for scientific publication visualization and
+  similarity measurement based on citation network.
+\newblock Master's thesis, University of Ottawa.
+
+\bibitem[Andrews and Fox 2007]{Andrews}
+Andrews, N.~O. and Fox, E.~A. (2007).
+\newblock Recent developments in document clustering.
+\newblock Virginia Tech. Department of Computer Science.
+
+\bibitem[Barbari{\'c} 2014]{barbaric2014isbd}
+Barbari{\'c}, A. (2014).
+\newblock Isbd: International standard bibliographic description.
+
+\bibitem[Bizer et~al. 2009]{eps271285}
+Bizer, C., Heath, T., and Berners-Lee, T. (2009).
+\newblock Linked data - the story so far.
+\newblock {\em International Journal on Semantic Web and Information Systems},
+  5(3):1--22.
+
+\bibitem[Blei et~al. 2003]{Blei}
+Blei, D.~M., Ng, A.~Y., and Jordan, M.~I. (2003).
+\newblock Latent dirichlet allocation.
+\newblock {\em J. Mach. Learn. Res.}, 3(30):993--1022.
+
+\bibitem[Brickley and Miller 2012]{brickley2012foaf}
+Brickley, D. and Miller, L. (2012).
+\newblock Foaf vocabulary specification 0.98.
+\newblock {\em Namespace document}, 9.
+
+\bibitem[Charikar 2002]{Charikar2002SimilarityET}
+Charikar, M. (2002).
+\newblock Similarity estimation techniques from rounding algorithms.
+\newblock In {\em STOC}.
+
+\bibitem[Clark and Divvala 2015]{AAAIW1510092}
+Clark, C. and Divvala, S. (2015).
+\newblock Looking beyond text: Extracting figures, tables and captions from
+  computer science papers.
+
+\bibitem[Gangemi 2005]{Gangemi2005}
+Gangemi, A. (2005).
+\newblock {\em The Semantic Web -- ISWC 2005: 4th International Semantic Web
+  Conference, ISWC 2005, Galway, Ireland, November 6-10, 2005. Proceedings},
+  chapter Ontology Design Patterns for Semantic Web Content, pages 262--276.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
+
+\bibitem[Giasson and D'Arcus 2009]{Frederick}
+Giasson, F. and D'Arcus, B. (2009).
+\newblock Bibliographic ontology specification.
+
+\bibitem[Krisnadhi et~al. 2015]{Krisnadhi2015TheGF}
+Krisnadhi, A.~A., Hu, Y., Janowicz, K., Hitzler, P., Arko, R.~A., Carbotte, S.,
+  Chandler, C., Cheatham, M., Fils, D., Finin, T., Ji, P., Jones, M.~B.,
+  Karima, N., Lehnert, K., Mickle, A., Narock, T., OBrien, M., Raymond, L.,
+  Shepherd, A., Schildhauer, M., and Wiebe, P. (2015).
+\newblock The geolink framework for pattern-based linked data integration.
+\newblock In {\em SEMWEB}.
+
+\bibitem[Ley 2009]{ley2009dblp}
+Ley, M. (2009).
+\newblock Dblp xml requests.
+
+\bibitem[Manning and Sch\"{u}tze 1999]{Manning}
+Manning, C.~D. and Sch\"{u}tze, H. (1999).
+\newblock {\em Foundations of Statistical Natural Language Processing}.
+\newblock MIT Press, Cambridge, MA, USA.
+
+\bibitem[Miller 1995]{Miller}
+Miller, G.~A. (1995).
+\newblock Wordnet: A lexical database for english.
+\newblock {\em Commun. ACM}, 38(11):39--41.
+
+\bibitem[O'Neill 2002]{Edward}
+O'Neill, E.~T. (2002).
+\newblock Frbr: Functional requirements for bibliographic records.
+\newblock {\em Library resources \& technical services}.
+
+\bibitem[Ortiz~Vivar and Segarra~Flores 2015]{Ortiz}
+Ortiz~Vivar, J.~E. and Segarra~Flores, J.~L. (2015).
+\newblock Plataforma para la anotaci\'on sem\'antica de servicio web restful
+  sobre un bus de servicios.
+
+\bibitem[Varadharajalu et~al. 2011]{varadharajalu2011author}
+Varadharajalu, A., Liu, W., and Wong, W. (2011).
+\newblock Author name disambiguation for ranking and clustering pubmed data
+  using netclus.
+\newblock In {\em AI 2011: Advances in Artificial Intelligence}, pages
+  152--161. Springer.
+
+\end{thebibliography}

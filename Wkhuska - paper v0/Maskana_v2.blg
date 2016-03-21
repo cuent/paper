@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Maskana_v2.aux
+The style file: MaskanaStyle.bst
+Database file #1: MaskanaBIB.bib
+Too many commas in name 1 of "Ortiz Vivar, J. E., & Segarra Flores, J. L." for entry ortiz
+while executing---line 1038 of file MaskanaStyle.bst
+Too many commas in name 1 of "Ortiz Vivar, J. E., & Segarra Flores, J. L." for entry ortiz
+while executing---line 1038 of file MaskanaStyle.bst
+Warning--empty year in bibo
+Warning--there's a number but no volume in wordnet:01
+Too many commas in name 1 of "Ortiz Vivar, J. E., & Segarra Flores, J. L." for entry ortiz
+while executing---line 1113 of file MaskanaStyle.bst
+Warning--empty booktitle in ortiz
+Warning--empty publisher in ortiz
+You've used 9 entries,
+            1935 wiz_defined-function locations,
+            528 strings with 4926 characters,
+and the built_in function-call counts, 3505 in all, are:
+= -- 349
+> -- 102
+< -- 11
++ -- 33
+- -- 30
+* -- 247
+:= -- 593
+add.period$ -- 31
+call.type$ -- 9
+change.case$ -- 58
+chr.to.int$ -- 8
+cite$ -- 13
+duplicate$ -- 165
+empty$ -- 283
+format.name$ -- 43
+if$ -- 729
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 48
+num.names$ -- 33
+pop$ -- 66
+preamble$ -- 1
+purify$ -- 58
+quote$ -- 0
+skip$ -- 120
+stack$ -- 0
+substring$ -- 222
+swap$ -- 32
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 4
+while$ -- 31
+width$ -- 0
+write$ -- 120
+(There were 3 error messages)

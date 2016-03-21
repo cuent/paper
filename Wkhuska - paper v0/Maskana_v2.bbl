@@ -1,0 +1,54 @@
+\begin{thebibliography}{}
+
+\bibitem[Boulic and Renault 1991]{boulic:91}
+Boulic, R. and Renault, O. (1991).
+\newblock 3d hierarchies for animation.
+\newblock In Magnenat-Thalmann, N. and Thalmann, D., editors, {\em New Trends
+  in Animation and Visualization}. John Wiley {\&} Sons ltd.
+
+\bibitem[Bruce~D'Arcus ]{bibo}
+Bruce~D'Arcus, F.~G.
+\newblock Bibliographic ontology specification.
+\newblock \url{http://bibliontology.com/specification}.
+\newblock Accessed: 2016-01-30.
+
+\bibitem[Fellbaum 1998a]{FellbaumB98}
+Fellbaum, C. (1998a).
+\newblock Semantic network of english verbs.
+\newblock In Fellbaum, C., editor, {\em WordNet: an electronic lexical
+  database}, pages 69--104. The MIT Press, Cambridge, Massachusetts.
+
+\bibitem[Fellbaum 1998b]{wordnet:01}
+Fellbaum, C. (1998b).
+\newblock Wordnet: An electronic lexical database.
+\newblock {\em The MIT Press.}, (69-104).
+
+\bibitem[Knuth 1984]{knuth:84}
+Knuth, D.~E. (1984).
+\newblock {\em The {\TeX} Book}.
+\newblock Addison-Wesley, 15th edition.
+
+\bibitem[O?Neill 2011]{o2011frbr}
+O?Neill, E.~T. (2011).
+\newblock Frbr: Functional requirements for bibliographic records.
+\newblock {\em Library resources \& technical services}, 46(4):150--159.
+
+\bibitem[Ortiz~Vivar 2015]{ortiz}
+Ortiz~Vivar, J.~E., . S. F. J.~L. (2015).
+\newblock Plataforma para la anotaci\'on sem\'antica de servicio web restful
+  sobre un bus de servicios.
+
+\bibitem[Smith and Jones 1999]{smith:99}
+Smith, A. and Jones, B. (1999).
+\newblock On the complexity of computing.
+\newblock In Smith-Jones, A.~B., editor, {\em Advances in Computer Science},
+  pages 555--566. Publishing Press.
+
+\bibitem[Varadharajalu et~al. 2011]{varadharajalu2011author}
+Varadharajalu, A., Liu, W., and Wong, W. (2011).
+\newblock Author name disambiguation for ranking and clustering pubmed data
+  using netclus.
+\newblock In {\em AI 2011: Advances in Artificial Intelligence}, pages
+  152--161. Springer.
+
+\end{thebibliography}

@@ -1,0 +1,134 @@
+\begin{thebibliography}{}
+
+\bibitem[Aggarwal and Yu 2000]{Charu}
+Aggarwal, C.~C. and Yu, P.~S. (2000).
+\newblock Finding generalized projected clusters in high dimensional spaces.
+\newblock {\em SIGMOD Rec.}, 29(2):70--81.
+
+\bibitem[Albornoz and Warnes 2013]{Albornoz}
+Albornoz, F. and Warnes, P. (2013).
+\newblock El estado de la ciencia en im{\'a}genes.
+
+\bibitem[Allen 2015]{semanticscholar}
+Allen, P. (2015).
+\newblock Semantic scholar.
+
+\bibitem[Andrews and Fox 2007]{Andrews}
+Andrews, N.~O. and Fox, E.~A. (2007).
+\newblock Recent developments in document clustering.
+\newblock Virginia Tech. Department of Computer Science.
+
+\bibitem[B\'{\i}r\'{o} et~al. 2009]{Biro}
+B\'{\i}r\'{o}, I., Sikl\'{o}si, D., Szab\'{o}, J., and Bencz\'{u}r, A.~A.
+  (2009).
+\newblock Linked latent dirichlet allocation in web spam filtering.
+\newblock In {\em Proceedings of the 5th International Workshop on Adversarial
+  Information Retrieval on the Web}, AIRWeb '09, pages 37--40, New York, NY,
+  USA. ACM.
+
+\bibitem[Blei et~al. 2003]{Blei}
+Blei, D.~M., Ng, A.~Y., and Jordan, M.~I. (2003).
+\newblock Latent dirichlet allocation.
+\newblock {\em J. Mach. Learn. Res.}, 3(30):993--1022.
+
+\bibitem[Bradley and Fayyad 1998]{Bradley}
+Bradley, P.~S. and Fayyad, U.~M. (1998).
+\newblock Refining initial points for k-means clustering.
+\newblock In {\em Proceedings of the Fifteenth International Conference on
+  Machine Learning}, pages 91--99, San Francisco, CA, USA. Morgan Kaufmann
+  Publishers Inc.
+
+\bibitem[Giasson and D'Arcus 2009]{Frederick}
+Giasson, F. and D'Arcus, B. (2009).
+\newblock Bibliographic ontology specification.
+
+\bibitem[Griffiths and Steyvers 2004]{Griffiths}
+Griffiths, T.~L. and Steyvers, M. (2004).
+\newblock Finding scientific topics.
+\newblock {\em Proceedings of the National Academy of Sciences}.
+
+\bibitem[Hamerly and Elkan 2004]{Greg}
+Hamerly, G. and Elkan, C. (2004).
+\newblock Learning the k in k-means.
+
+\bibitem[Hodge and Austin 2004]{Victoria}
+Hodge, V.~J. and Austin, J. (2004).
+\newblock A survey of outlier detection methodologies.
+\newblock {\em Artificial Intelligence Review}, 22:85--126.
+
+\bibitem[Jain 2009]{Anil}
+Jain, A.~K. (2009).
+\newblock Data clustering: 50 years beyond k-means.
+\newblock In Elsevier, editor, {\em Pattern Recognition Letters}.
+
+\bibitem[Krestel et~al. 2009]{Krestel}
+Krestel, R., Fankhauser, P., and Nejdl, W. (2009).
+\newblock Latent dirichlet allocation for tag recommendation.
+\newblock In {\em Proceedings of the third ACM conference on Recommender
+  systems}, pages 61--68, New York, NY, USA. ACM.
+
+\bibitem[Krisnadhi et~al. 2015a]{Krisnadhi01}
+Krisnadhi, A., Hu, Y., Janowicz, K., Hitzler, P., Arko, R., Carbotte, S.,
+  Chandler, C., Cheatham, M., Fils, D., Finin, T., Ji, P., Jones, M., Karima,
+  N., Lehnert, K., Mickle, A., Narock, T., O'Brien, M., Raymond, L., Shepherd,
+  A., Schildhauer, M., and Wiebe, P. (2015a).
+\newblock {\em The Semantic Web - ISWC 2015: 14th International Semantic Web
+  Conference, Bethlehem, PA, USA, October 11-15, 2015, Proceedings, Part II},
+  chapter The GeoLink Modular Oceanography Ontology, pages 301--309.
+\newblock Springer International Publishing, Cham.
+
+\bibitem[Krisnadhi et~al. 2015b]{Krisnadhi02}
+Krisnadhi, A.~A., Hu, Y., Janowicz, K., Hitzler, P., Arko, R.~A., Carbotte, S.,
+  Chandler, C., Cheatham, M., Fils, D., Finin, T., Ji, P., Jones, M.~B.,
+  Karima, N., Lehnert, K., Mickle, A., Narock, T., O'Brien, M., Raymond, L.,
+  Shepherd, A., Schildhauer, M., and Wiebe, P. (2015b).
+\newblock The geolink framework for pattern-based linked data integration.
+\newblock In Villata, S., Pan, J.~Z., and Dragoni, M., editors, {\em
+  International Semantic Web Conference (Posters \& Demos)}, volume 1486 of
+  {\em CEUR Workshop Proceedings}. CEUR-WS.org.
+
+\bibitem[Lloyd 2006]{Lloyd}
+Lloyd, S. (2006).
+\newblock Least squares quantization in pcm.
+\newblock {\em IEEE Trans. Inf. Theor.}, 28(2):129--137.
+
+\bibitem[Manning and Sch\"{u}tze 1999]{Manning}
+Manning, C.~D. and Sch\"{u}tze, H. (1999).
+\newblock {\em Foundations of Statistical Natural Language Processing}.
+\newblock MIT Press, Cambridge, MA, USA.
+
+\bibitem[Miller 1995]{Miller}
+Miller, G.~A. (1995).
+\newblock Wordnet: A lexical database for english.
+\newblock {\em Commun. ACM}, 38(11):39--41.
+
+\bibitem[O'Neill 2002]{Edward}
+O'Neill, E.~T. (2002).
+\newblock Frbr: Functional requirements for bibliographic records.
+\newblock {\em Library resources \& technical services}.
+
+\bibitem[Ortiz~Vivar and Segarra~Flores 2015]{Ortiz}
+Ortiz~Vivar, J.~E. and Segarra~Flores, J.~L. (2015).
+\newblock Plataforma para la anotaci\'on sem\'antica de servicio web restful
+  sobre un bus de servicios.
+
+\bibitem[Shindler et~al. 2011]{Shindler}
+Shindler, M., Wong, A., and Meyerson, A. (2011).
+\newblock Fast and accurate k-means for large datasets.
+\newblock In Shawe-Taylor, J., Zemel, R.~S., Bartlett, P.~L., Pereira, F.
+  C.~N., and Weinberger, K.~Q., editors, {\em NIPS}, pages 2375--2383.
+
+\bibitem[Teh et~al. 2007]{Yee}
+Teh, Y.~W., Newman, D., and Welling, M. (2007).
+\newblock A collapsed variational bayesian inference algorithm for latent
+  dirichlet allocation.
+\newblock In Sch\"{o}lkopf, B., Platt, J.~C., and Hoffman, T., editors, {\em
+  Advances in Neural Information Processing Systems 19}, pages 1353--1360. MIT
+  Press.
+
+\bibitem[Zamir et~al. 1997]{Zamir}
+Zamir, O., Etzioni, O., Madani, O., and Karp, R.~M. (1997).
+\newblock Fast and intuitive clustering of web documents.
+\newblock {\em AAAI}.
+
+\end{thebibliography}

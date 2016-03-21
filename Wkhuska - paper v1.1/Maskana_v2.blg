@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Maskana_v2.aux
+The style file: MaskanaStyle.bst
+Database file #1: MaskanaBIB.bib
+Warning--entry type for "Frederick" isn't style-file defined
+--line 298 of file MaskanaBIB.bib
+Warning--entry type for "AAAIW1510092" isn't style-file defined
+--line 340 of file MaskanaBIB.bib
+Warning--empty booktitle in Andrews
+Warning--empty journal in barbaric2014isbd
+Warning--can't use both author and editor fields in Gangemi2005
+You've used 17 entries,
+            1935 wiz_defined-function locations,
+            583 strings with 6799 characters,
+and the built_in function-call counts, 6330 in all, are:
+= -- 608
+> -- 289
+< -- 16
++ -- 102
+- -- 98
+* -- 505
+:= -- 1131
+add.period$ -- 48
+call.type$ -- 17
+change.case$ -- 132
+chr.to.int$ -- 17
+cite$ -- 20
+duplicate$ -- 251
+empty$ -- 417
+format.name$ -- 127
+if$ -- 1224
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 14
+newline$ -- 83
+num.names$ -- 51
+pop$ -- 132
+preamble$ -- 1
+purify$ -- 134
+quote$ -- 0
+skip$ -- 190
+stack$ -- 0
+substring$ -- 335
+swap$ -- 30
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 98
+warning$ -- 3
+while$ -- 46
+width$ -- 0
+write$ -- 207
+(There were 5 warnings)

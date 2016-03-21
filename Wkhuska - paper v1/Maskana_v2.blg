@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Maskana_v2.aux
+The style file: MaskanaStyle.bst
+Database file #1: MaskanaBIB.bib
+Warning--entry type for "semanticscholar" isn't style-file defined
+--line 44 of file MaskanaBIB.bib
+Warning--entry type for "Frederick" isn't style-file defined
+--line 289 of file MaskanaBIB.bib
+Warning--I didn't find a database entry for "varadharajalu2011author"
+Warning--empty booktitle in Andrews
+Warning--empty journal in Greg
+Warning--can't use both author and editor fields in Krisnadhi01
+You've used 23 entries,
+            1935 wiz_defined-function locations,
+            637 strings with 8561 characters,
+and the built_in function-call counts, 10288 in all, are:
+= -- 981
+> -- 542
+< -- 23
++ -- 195
+- -- 186
+* -- 868
+:= -- 1783
+add.period$ -- 70
+call.type$ -- 23
+change.case$ -- 200
+chr.to.int$ -- 22
+cite$ -- 26
+duplicate$ -- 388
+empty$ -- 649
+format.name$ -- 229
+if$ -- 2022
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 21
+newline$ -- 113
+num.names$ -- 77
+pop$ -- 203
+preamble$ -- 1
+purify$ -- 202
+quote$ -- 0
+skip$ -- 293
+stack$ -- 0
+substring$ -- 581
+swap$ -- 73
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 134
+warning$ -- 3
+while$ -- 78
+width$ -- 0
+write$ -- 292
+(There were 6 warnings)
