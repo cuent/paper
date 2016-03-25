@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.7)  15 MAR 2016 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.7)  23 MAR 2016 16:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -558,114 +558,113 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 94.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 115.
-
-Underfull \hbox (badness 1577) in paragraph at lines 115--116
-\OT1/ptm/m/n/12 Similar work have been achi-e-ved in the area of ge-os-ci-ence.
- The work showed in
- []
+(Font)              <9> on input line 120.
 
 <platformDiagram.png, id=13, 1231.60126pt x 408.52625pt>
 File: platformDiagram.png Graphic file (type png)
 
 <use platformDiagram.png>
-Package pdftex.def Info: platformDiagram.png used on input line 129.
+Package pdftex.def Info: platformDiagram.png used on input line 134.
 (pdftex.def)             Requested size: 446.04468pt x 147.95424pt.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 130.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 135.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 130.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 135.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 135.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
  [2] [3 <./platformDiagram.png>] <modelosMA_Springer.png, id=24, 913.91437pt x 
 389.95688pt>
 File: modelosMA_Springer.png Graphic file (type png)
 
 <use modelosMA_Springer.png>
-Package pdftex.def Info: modelosMA_Springer.png used on input line 165.
-(pdftex.def)             Requested size: 346.7472pt x 147.95424pt.
+Package pdftex.def Info: modelosMA_Springer.png used on input line 182.
+(pdftex.def)             Requested size: 480.10507pt x 204.85974pt.
 
-Underfull \vbox (badness 5490) has occurred while \output is active []
+Overfull \hbox (27.13718pt too wide) in paragraph at lines 182--183
+ [][] 
+ []
 
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-[]\OT1/ptm/m/n/12 The com-mon mo-del pro-po-sed is des-cri-bed using on-to-logy
-
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+[]\OT1/ptm/m/n/12 The com-mon mo-del pro-po-sed is des-cri-bed using the on-to-
+logy (BIBO)
  []
 
 <dataModelCommon.png, id=28, 785.18344pt x 536.75531pt>
 File: dataModelCommon.png Graphic file (type png)
 
 <use dataModelCommon.png>
-Package pdftex.def Info: dataModelCommon.png used on input line 180.
-(pdftex.def)             Requested size: 374.59541pt x 256.0748pt.
- [5 <./modelosMA_Springer.png>]
-<desambiguationProcess.png, id=33, 1403.2425pt x 475.7775pt>
-File: desambiguationProcess.png Graphic file (type png)
+Package pdftex.def Info: dataModelCommon.png used on input line 202.
+(pdftex.def)             Requested size: 570.21986pt x 389.80266pt.
 
-<use desambiguationProcess.png>
-Package pdftex.def Info: desambiguationProcess.png used on input line 203.
-(pdftex.def)             Requested size: 436.37103pt x 147.95424pt.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 214.
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [6 <./dataModelCommon.png>] [7 <./desambiguationProcess.png>]
-<findka.png, id=44, 858.20625pt x 121.45375pt>
-File: findka.png Graphic file (type png)
- <use findka.png>
-Package pdftex.def Info: findka.png used on input line 238.
-(pdftex.def)             Requested size: 461.40782pt x 65.29901pt.
-
-Overfull \hbox (8.43993pt too wide) in paragraph at lines 238--239
+Overfull \hbox (117.25197pt too wide) in paragraph at lines 202--203
  [][] 
  []
 
-[8 <./findka.png>] <anotacion.png, id=49, 420.57124pt x 137.51375pt>
+[5 <./modelosMA_Springer.png>] [6 <./dataModelCommon.png>]
+<desambiguationProcess.png, id=37, 1403.2425pt x 475.7775pt>
+File: desambiguationProcess.png Graphic file (type png)
+
+<use desambiguationProcess.png>
+Package pdftex.def Info: desambiguationProcess.png used on input line 226.
+(pdftex.def)             Requested size: 436.37103pt x 147.95424pt.
+ [7 <./desambiguationProcess.png>]
+<findka.png, id=43, 858.20625pt x 121.45375pt>
+File: findka.png Graphic file (type png)
+ <use findka.png>
+Package pdftex.def Info: findka.png used on input line 261.
+(pdftex.def)             Requested size: 461.40782pt x 65.29901pt.
+
+Overfull \hbox (8.43993pt too wide) in paragraph at lines 261--262
+ [][] 
+ []
+
+[8 <./findka.png>] <anotacion.png, id=48, 420.57124pt x 137.51375pt>
 File: anotacion.png Graphic file (type png)
 
 <use anotacion.png>
-Package pdftex.def Info: anotacion.png used on input line 257.
+Package pdftex.def Info: anotacion.png used on input line 280.
 (pdftex.def)             Requested size: 252.36394pt x 82.51282pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--330
+Underfull \hbox (badness 10000) in paragraph at lines 347--353
 
  []
 
-(./Maskana_v2.bbl [9 <./anotacion.png>]) [10] (./Maskana_v2.aux) ) 
+(./Maskana_v2.bbl
+Underfull \vbox (badness 1661) has occurred while \output is active []
+
+ [9 <./anotacion.png>]) [10] (./Maskana_v2.aux) ) 
 Here is how much of TeX's memory you used:
- 3670 strings out of 493089
- 50639 string characters out of 6134842
- 128235 words of memory out of 5000000
- 7051 multiletter control sequences out of 15000+600000
- 38076 words of font info for 67 fonts, out of 8000000 for 9000
+ 3635 strings out of 493089
+ 50131 string characters out of 6134842
+ 128255 words of memory out of 5000000
+ 7021 multiletter control sequences out of 15000+600000
+ 37561 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,45p,1241b,290s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/t
-exlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
-/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
-bi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Maskana_v2.pdf (10 pages, 637219 bytes).
+ 38i,11n,45p,1207b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf
+-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/h
+elvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
+mb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Maskana_v2.pdf (10 pages, 628306 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
